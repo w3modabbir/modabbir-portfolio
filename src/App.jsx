@@ -10,9 +10,10 @@ import { SiFiverr } from "react-icons/si";
 import { SiUpwork } from "react-icons/si";
 import { SiFreelancer } from "react-icons/si";
 import BannerImg from '../src/assets/images/modabbir.png'
+import { ReactTyped } from "react-typed";
 
 function App() {
-  
+
 
   return (
    <>
@@ -51,11 +52,39 @@ function App() {
           <div className="banner_content">
             <h5 className='font-lato text-lg  font-medium uppercase text-white pb-[20px]'>WELCOME TO MY WORLD</h5>
             <h2 className='font-lato text-5xl font-bold  text-white pb-[20px]'>Hi im <span className='text-hover-color'>Modabbir Hossen</span></h2>
-            <h3 className='font-lato text-3xl font-bold  text-white'>And I'm a <span>MERN Stack Developer</span></h3>
+            <h3 className='font-lato text-3xl font-bold  text-white'>And I'm a <span className='typed'>
+            <ReactTyped
+                strings={[
+                  "MERN Stack Developer.",
+                  "Front-End Developer.",
+                  "Web Developer.",
+                ]}
+                typeSpeed={40}
+                backSpeed={50}
+                loop
+              >
+              </ReactTyped>
+              </span></h3>
             <p className='text-white font-normal text-base font-lato leading-[180%] pt-[20px] pr-[200px]'>I am a MERN Stack Developer, I design, develop and maintain web applications using MERN Stack Development technologies <span className='text-hover-color'> e.g MongoDB, Express.js, React.js, and Node.js</span></p>
-            <div>
-              <h4>FIND WITH ME</h4>
-              <a href="#"></a>
+            <div className='pt-[50px]'>
+              <h4 className='font-lato text-lg  font-medium uppercase text-white'>FIND WITH ME</h4>
+             <div className='flex items-center gap-x-[25px] pt-[25px]'>
+              <div className='socile_icon'>
+                <a target='_blanck' href="https://www.linkedin.com/in/modabbir-hossen/" className=' text-white  bg-hover-color w-[40px] h-[40px] text-[24px] flex justify-center items-center rounded-[50%]'><FaLinkedin />
+                <p className=' text-hover-color font-lato text-base  font-medium '>Linkedin</p>
+                </a>
+              </div>
+              <div className='socile_icon'>
+              <a target='_blanck' href="https://twitter.com/modabbirhossen" className=' text-white  bg-hover-color w-[40px] h-[40px] text-[24px] flex justify-center items-center rounded-[50%]'><FaTwitter />
+              <p className=' text-hover-color font-lato text-base  font-medium '>twitter</p>
+              </a>
+              </div>
+              <div className='socile_icon'>
+                <a target='_blanck' href="https://github.com/w3modabbir" className=' text-white  bg-hover-color w-[40px] h-[40px] text-[24px] flex justify-center items-center rounded-[50%]'><FaGithub />
+                <p className=' text-hover-color font-lato text-base  font-medium '>GitHub</p>
+                </a>
+              </div>
+             </div>
             </div>
           </div>
           <div className="banner_img">
