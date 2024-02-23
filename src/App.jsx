@@ -51,7 +51,12 @@ function App() {
           <div className="banner_content">
             <h5 className='font-lato text-lg  font-medium uppercase text-white pb-[20px]'>WELCOME TO MY WORLD</h5>
             <h2 className='font-lato text-5xl font-bold  text-white pb-[20px]'>Hi im <span className='text-hover-color'>Modabbir Hossen</span></h2>
-            <h3 className='font-lato text-3xl font-bold  text-white'>And I'm a <span>Front End Developer</span></h3>
+            <h3 className='font-lato text-3xl font-bold  text-white'>And I'm a <span>MERN Stack Developer</span></h3>
+            <p className='text-white font-normal text-base font-lato leading-[180%] pt-[20px] pr-[200px]'>I am a MERN Stack Developer, I design, develop and maintain web applications using MERN Stack Development technologies <span className='text-hover-color'> e.g MongoDB, Express.js, React.js, and Node.js</span></p>
+            <div>
+              <h4>FIND WITH ME</h4>
+              <a href="#"></a>
+            </div>
           </div>
           <div className="banner_img">
             <div className="img_backgroud  bg-hover-color w-[300px] h-[300px] rounded-[50%] overflow-hidden relative">
