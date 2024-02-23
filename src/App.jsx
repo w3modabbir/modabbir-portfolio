@@ -9,6 +9,7 @@ import { FaGithub } from "react-icons/fa";
 import { SiFiverr } from "react-icons/si";
 import { SiUpwork } from "react-icons/si";
 import { SiFreelancer } from "react-icons/si";
+import BannerImg from '../src/assets/images/modabbir.png'
 
 function App() {
   
@@ -26,7 +27,7 @@ function App() {
           </div>
           <div className="navbar_manu w-[50%] mx-auto ">
             <ul className='flex justify-center gap-x-[32px]'>
-              <li><a href='#' className='text-lg uppercase font-medium text-nav-color font-raleway hover:text-hover-color duration-300'>HOME</a></li>
+              <li><a href='banner' className='text-lg uppercase font-medium text-nav-color font-raleway hover:text-hover-color duration-300'>HOME</a></li>
               <li><a href='#' className='text-lg uppercase font-medium text-nav-color font-raleway hover:text-hover-color duration-300'>about</a></li>
               <li><a href='#' className='text-lg uppercase font-medium text-nav-color font-raleway hover:text-hover-color duration-300'>service</a></li>
               <li><a href='#' className='text-lg uppercase font-medium text-nav-color font-raleway hover:text-hover-color duration-300'>project</a></li>
@@ -42,8 +43,25 @@ function App() {
       </div>
     </nav>
     {/*================== NavBar Part End Here  ==============*/}
-    {/*================== NavBar Part Start Here  ============*/}
-    {/*================== NavBar Part End Here  ==============*/}
+    
+    {/*================== Banner Part Start Here  ============*/}
+    <section id='banner' className='bg-black py-[80px]'>
+      <div className="max-w-container mx-auto">
+        <div className="banner_main flex justify-between items-center">
+          <div className="banner_content">
+            <h5 className='font-lato text-lg  font-medium uppercase text-white pb-[20px]'>WELCOME TO MY WORLD</h5>
+            <h2 className='font-lato text-5xl font-bold  text-white pb-[20px]'>Hi im <span className='text-hover-color'>Modabbir Hossen</span></h2>
+            <h3 className='font-lato text-3xl font-bold  text-white'>And I'm a <span>Front End Developer</span></h3>
+          </div>
+          <div className="banner_img">
+            <div className="img_backgroud  bg-hover-color w-[300px] h-[300px] rounded-[50%] overflow-hidden relative">
+              <Image src={BannerImg} alt="not found" className="w-full h-full object-cover rounded-[50%]"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    {/*================== Banner Part End Here  ==============*/}
     {/*================== NavBar Part Start Here  ============*/}
     {/*================== NavBar Part End Here  ==============*/}
     {/*================== NavBar Part Start Here  ============*/}
