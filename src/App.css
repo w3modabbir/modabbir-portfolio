@@ -125,3 +125,45 @@
     background-color: #fff;
 }
 /*================ About part End here  =============*/
+.service_item{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.service_item:hover{
+    background-color: rgb(31 41 55);
+}
+.service_item h3{
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.service_item .service_text h6{
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.service_item:hover h3{
+    color: #fff;
+}
+.service_item a{
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.service_item:hover a{
+    background-color: #fff;
+    color: #222;
+}
+.service_item:hover .service_text h6{
+    color: #fff;
+}

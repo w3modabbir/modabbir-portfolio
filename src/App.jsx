@@ -28,6 +28,10 @@ import API from '../src/assets/images/api.png'
 import Express from '../src/assets/images/express.png'
 import Photoshop from '../src/assets/images/photoshop.png'
 import Figma from '../src/assets/images/figma.png'
+import uiuxDesign from '../src/assets/images/service1.jpg'
+import Frontend from '../src/assets/images/service2.webp'
+import backEndDeveloper from '../src/assets/images/service3.jpg'
+
 
 function App() {
 
@@ -292,8 +296,56 @@ function App() {
       </div>
     </section>
     {/*================== Skill Part End Here  ==============*/}
-    {/*================== NavBar Part Start Here  ============*/}
-    {/*================== NavBar Part End Here  ==============*/}
+
+    {/*================== service Part Start Here  ============*/}
+    <section id='service' className='py-[100px]'>
+      <div className="max-w-container mx-auto">
+        <div className="about_heading text-center pb-[50px]">
+          <h2 className='font-lato capitalize font-bold text-4xl text-heading'>My <span className='text-hover-color'>Service</span> </h2>
+          <h3 className='font-lato capitalize font-semibold pt-[10px] text-4xl text-heading'>Service Provide For My Clients</h3>
+          <div class="progras_bar"></div>
+        </div>
+        <div className="service_main flex ] gap-[24px]">
+          <div className="service_item w-[375px] py-[20px] px-[25px] rounded-[10px]">
+            <h3 className='text-2xl font-lato font-bold text-hover-color pb-[20px]'>UI UX Design</h3>
+            <div className="service_img overflow-hidden rounded-[10px]">
+              <Image src={uiuxDesign} alt="not found" class="w-full h-full object-cover "/>
+            </div>
+            <div className="service_text pt-[20px]">
+              <h6 className='text-base font-lato font-normal text-heading leading-[170%]'>I have 1+ years of experience as a UX UI designer specializing in web and mobile UI UX design. As a skilled UI/UX designer, I specialize in crafting stunning and intuitive mobile apps and web UI/UX designs.</h6>
+            </div>
+            <div className='pt-[50px]'>
+              <a href="#" className='bg-hover-color text-white py-[12px] px-[20px] rounded-[3px] capitalize font-raleway font-medium'>Read More</a>
+            </div>
+          </div>
+          <div className="service_item w-[375px] py-[20px] px-[25px] rounded-[10px]">
+            <h3 className='text-2xl font-lato font-bold text-hover-color pb-[20px]'>Front-End Development</h3>
+            <div className="service_img overflow-hidden rounded-[10px]">
+              <Image src={Frontend} alt="not found" class="w-full h-full object-cover "/>
+            </div>
+            <div className="service_text pt-[20px]">
+              <h6 className='text-base font-lato font-normal text-heading leading-[170%]'>I'm a Frontend  Developer, I mastered React Js, HTML, CSS, JavaScript, Tailwind CSS, Material UI, Bootstrap, jQuery. I can convert your design into pixel perfect front-end website.</h6>
+            </div>
+            <div className='pt-[50px]'>
+              <a href="#" className='bg-hover-color text-white py-[12px] px-[20px] rounded-[3px] capitalize font-raleway font-medium'>Read More</a>
+            </div>
+          </div>
+          <div className="service_item w-[375px] py-[20px] px-[25px] rounded-[10px]">
+            <h3 className='text-2xl font-lato font-bold text-hover-color pb-[20px]'>UI UX Design</h3>
+            <div className="service_img overflow-hidden rounded-[10px]">
+              <Image src={backEndDeveloper} alt="not found" class="w-full h-full object-cover "/>
+            </div>
+            <div className="service_text pt-[20px]">
+              <h6 className='text-base font-lato font-normal text-heading leading-[170%]'>I am a Professional MERN Stack Web Developer i having 1+ years of working experiences on MERN STACK Development. I have strong Knowledge on ReactJS, NodeJS, ExpressJS, MongoDB, Firebase and many more advanced MERN STACK technologies. With those, I will be your Custom MERN DEVELOPER.</h6>
+            </div>
+            <div className='pt-[50px]'>
+              <a href="#" className='bg-hover-color text-white py-[12px] px-[20px] rounded-[3px] capitalize font-raleway font-medium'>Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    {/*================== service Part End Here  ==============*/}
     {/*================== NavBar Part Start Here  ============*/}
     {/*================== NavBar Part End Here  ==============*/}
     {/*================== NavBar Part Start Here  ============*/}
