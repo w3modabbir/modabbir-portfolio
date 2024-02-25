@@ -12,7 +12,23 @@ import { SiFreelancer } from "react-icons/si";
 import BannerImg from '../src/assets/images/modabbir.png'
 import { ReactTyped } from "react-typed";
 import AboutImg from '../src/assets/images/about.png'
-import { IoCheckmark } from "react-icons/io5";
+import htmlIcon from '../src/assets/images/html.png'
+import cssIcon from '../src/assets/images/css.png'
+import jsIcon from '../src/assets/images/js.png'
+import reactIcon from '../src/assets/images/react.png'
+import jquerytIcon from '../src/assets/images/jquery.jpg'
+import materialtIcon from '../src/assets/images/material.png'
+import sassIcon from '../src/assets/images/sass.png'
+import tailwindIcon from '../src/assets/images/tailwind.png'
+import bootstrap from '../src/assets/images/bootstrap.png'
+import FireBase from '../src/assets/images/firebase.png'
+import MongoDB from '../src/assets/images/mongodb.png'
+import nodeJS from '../src/assets/images/node.png'
+import API from '../src/assets/images/api.png'
+import Express from '../src/assets/images/express.png'
+import Photoshop from '../src/assets/images/photoshop.png'
+import Figma from '../src/assets/images/figma.png'
+
 function App() {
 
 
@@ -47,7 +63,7 @@ function App() {
     {/*================== NavBar Part End Here  ==============*/}
     
     {/*================== Banner Part Start Here  ============*/}
-    <section id='banner' className='bg-black py-[100px]'>
+    <section id='banner' className='bg-slate-900	 py-[100px]'>
       <div className="max-w-container mx-auto">
         <div className="banner_main flex justify-between items-center">
           <div className="banner_content">
@@ -108,7 +124,7 @@ function App() {
             <div class="progras_bar"></div>
         </div>
           <div className="about_main flex gap-[150px] items-center">
-            <div className="about_img bg-heading-bg py-[20px] px-[20px] rounded-[10px] shadow-xl shadow-white">
+            <div className="about_img bg-slate-900 py-[20px] px-[20px] rounded-[10px] shadow-xl shadow-white">
               <div className="img_back w-[350px] h-[350px] overflow-hidden">
                 <Image src={AboutImg} alt="not found" class="w-full h-full object-cover"/>
               </div>
@@ -121,6 +137,7 @@ function App() {
                   <li className='text-lg font-lato font-medium text-heading '> 1+ year in Web Application Development, Coding, Programming, Testing, Data Management, Project Management</li>
                   <li className='text-lg font-lato font-medium text-heading '> I will develop custom mern stack web applications as a mern stack developer</li>
                   <li className='text-lg font-lato font-medium text-heading '> I will be react js developer</li>
+                  <li className='text-lg font-lato font-medium text-heading '> I will ui ux design mobile ui design or website ui ux design for you with figma</li>
                 </ul>
               </div>
               <div className='flex gap-[24px] pt-[30px]'>
@@ -145,8 +162,136 @@ function App() {
       </div>
     </section>
     {/*================== About Part End Here  ==============*/}
-    {/*================== NavBar Part Start Here  ============*/}
-    {/*================== NavBar Part End Here  ==============*/}
+
+    {/*================== Skill Part Start Here  ============*/}
+    <section id='skill' className=' py-[100px] bg-slate-900	'>
+      <div className="max-w-container mx-auto">
+        <div className="about_heading text-center pb-[50px]">
+              <h2 className='font-lato capitalize font-bold text-4xl text-white'>My <span className='text-hover-color'>Skills</span> </h2>
+              <div class="progras_bar bar2"></div>
+        </div>
+        <div className="skill_main flex gap-[24px]">
+          <div className="skill_item bg-white w-[377px] py-[20px] px-[25px] rounded-[10px]">
+            <h2 className='text-[24px] font-lato font-bold text-hover-color text-center '>Front-End Development</h2>
+            <div className='flex gap-[24px] pt-[25px] flex-wrap'>
+              <div>
+                <div className='w-[30px] h-[30px] overflow-hidden m-auto'>
+                <Image src={htmlIcon} alt="not found" class="w-full h-full object-cover  "/>
+                </div>
+                <h4 className='font-lato font-semibold text-base pt-[10px]'>HTML</h4>
+              </div>
+              <div>
+                <div className='w-[30px] h-[30px] overflow-hidden m-auto'>
+                  <Image src={cssIcon} alt="not found" class="w-full h-full object-cover  "/>
+                </div>
+                  <h4 className='font-lato font-semibold text-base pt-[10px]'>CSS</h4>
+              </div>
+              <div>
+                <div className='w-[30px] h-[30px] overflow-hidden m-auto'>
+                  <Image src={jsIcon} alt="not found" class="w-full h-full object-cover  "/>
+                </div>
+                <h4 className='font-lato font-semibold text-base pt-[10px]'>Javascrift</h4>
+              </div>
+              <div>
+                <div className='w-[30px] h-[30px] overflow-hidden m-auto'>
+                  <Image src={reactIcon} alt="not found" class="w-full h-full object-cover  "/>
+                </div>
+                <h4 className='font-lato font-semibold text-base pt-[10px]'>React Js</h4>
+              </div>
+              {/* <div>
+                <div className='w-[30px] h-[30px] overflow-hidden m-auto'>
+                    <Image src={reactIcon} alt="not found" class="w-full h-full object-cover"/>
+                </div>
+                <h4 className='font-lato font-semibold text-base pt-[10px]'>Redux Toolki</h4>
+              </div> */}
+              <div>
+              <div className='w-[30px] h-[30px] overflow-hidden m-auto'>
+                    <Image src={jquerytIcon} alt="not found" class="w-full h-full object-cover"/>
+                </div>
+                <h4 className='font-lato font-semibold text-base pt-[10px]'>jQuery</h4>
+              </div>
+              <div>
+                <div className='w-[30px] h-[30px] overflow-hidden m-auto'>
+                    <Image src={sassIcon} alt="not found" class="w-full h-full object-cover"/>
+                </div>
+                <h4 className='font-lato font-semibold text-base pt-[10px]'>SASS</h4>
+              </div>
+              <div>
+                <div className='w-[30px] h-[30px] overflow-hidden m-auto'>
+                    <Image src={tailwindIcon} alt="not found" class="w-full h-full object-cover"/>
+                </div>
+                <h4 className='font-lato font-semibold text-base pt-[10px]'>Tailwind css</h4>
+              </div>
+              <div>
+              <div className='w-[30px] h-[30px] overflow-hidden m-auto'>
+                    <Image src={bootstrap} alt="not found" class="w-full h-full object-cover"/>
+                </div>
+                <h4 className='font-lato font-semibold text-base pt-[10px]'>Bootstrap </h4>
+              </div>
+              <div>
+              <div className='w-[30px] h-[30px] overflow-hidden m-auto'>
+                    <Image src={materialtIcon} alt="not found" class="w-full h-full object-cover"/>
+                </div>
+               <h4 className='font-lato font-semibold text-base pt-[10px]'> Material ui </h4>
+              </div>
+            </div>
+          </div>
+          <div className="skill_item bg-white  w-[377px] py-[20px] px-[25px]  rounded-[10px]">
+            <h2 className='text-[24px] font-lato font-bold text-hover-color text-center '> BACK-END Development</h2>
+            <div className='flex gap-[24px] pt-[25px] flex-wrap'>
+              <div>
+                <div className='w-[30px] h-[30px] overflow-hidden m-auto'>
+                <Image src={nodeJS} alt="not found" class="w-full h-full object-cover  "/>
+                </div>
+                <h4 className='font-lato font-semibold text-base pt-[10px]'>Node.js</h4>
+              </div>
+              <div>
+                <div className='w-[30px] h-[30px] overflow-hidden m-auto'>
+                  <Image src={Express} alt="not found" class="w-full h-full object-cover  "/>
+                </div>
+                  <h4 className='font-lato font-semibold text-base pt-[10px]'>Express.js</h4>
+              </div>
+              <div>
+                <div className='w-[30px] h-[30px] overflow-hidden m-auto'>
+                  <Image src={MongoDB} alt="not found" class="w-full h-full object-cover  "/>
+                </div>
+                <h4 className='font-lato font-semibold text-base pt-[10px]'>MongoDB</h4>
+              </div>
+              <div>
+                <div className='w-[30px] h-[30px] overflow-hidden m-auto'>
+                  <Image src={FireBase} alt="not found" class="w-full h-full object-cover  "/>
+                </div>
+                <h4 className='font-lato font-semibold text-base pt-[10px]'>FireBase</h4>
+              </div>
+              <div>
+                <div className='w-[30px] h-[30px] overflow-hidden m-auto'>
+                  <Image src={API} alt="not found" class="w-full h-full object-cover  "/>
+                </div>
+                <h4 className='font-lato font-semibold text-base pt-[10px]'>RESTful API</h4>
+              </div>
+            </div>
+          </div>
+          <div className="skill_item bg-white w-[377px] py-[20px] px-[25px]  rounded-[10px]">
+            <h2 className='text-[24px] font-lato font-bold text-hover-color text-center '>UI UX Design</h2>
+            <div className='flex gap-[24px] pt-[25px] flex-wrap'>
+              <div>
+                <div className='w-[30px] h-[30px] overflow-hidden m-auto'>
+                <Image src={Figma} alt="not found" class="w-full h-full object-cover  "/>
+                </div>
+                <h4 className='font-lato font-semibold text-base pt-[10px]'>Figma</h4>
+              </div>
+              <div>
+                <div className='w-[30px] h-[30px] overflow-hidden m-auto'>
+                <Image src={Photoshop} alt="not found" class="w-full h-full object-cover  "/>
+                </div>
+                <h4 className='font-lato font-semibold text-base pt-[10px]'>Adobe Photoshop</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    {/*================== Skill Part End Here  ==============*/}
     {/*================== NavBar Part Start Here  ============*/}
     {/*================== NavBar Part End Here  ==============*/}
     {/*================== NavBar Part Start Here  ============*/}
