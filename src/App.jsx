@@ -11,7 +11,8 @@ import { SiUpwork } from "react-icons/si";
 import { SiFreelancer } from "react-icons/si";
 import BannerImg from '../src/assets/images/modabbir.png'
 import { ReactTyped } from "react-typed";
-
+import AboutImg from '../src/assets/images/about.png'
+import { IoCheckmark } from "react-icons/io5";
 function App() {
 
 
@@ -29,7 +30,7 @@ function App() {
           <div className="navbar_manu w-[50%] mx-auto ">
             <ul className='flex justify-center gap-x-[32px]'>
               <li><a href='banner' className='text-lg uppercase font-medium text-nav-color font-raleway hover:text-hover-color duration-300'>HOME</a></li>
-              <li><a href='#' className='text-lg uppercase font-medium text-nav-color font-raleway hover:text-hover-color duration-300'>about</a></li>
+              <li><a href='about' className='text-lg uppercase font-medium text-nav-color font-raleway hover:text-hover-color duration-300'>about</a></li>
               <li><a href='#' className='text-lg uppercase font-medium text-nav-color font-raleway hover:text-hover-color duration-300'>service</a></li>
               <li><a href='#' className='text-lg uppercase font-medium text-nav-color font-raleway hover:text-hover-color duration-300'>project</a></li>
               <li><a href='#' className='text-lg uppercase font-medium text-nav-color font-raleway hover:text-hover-color duration-300'>contact</a></li>
@@ -46,7 +47,7 @@ function App() {
     {/*================== NavBar Part End Here  ==============*/}
     
     {/*================== Banner Part Start Here  ============*/}
-    <section id='banner' className='bg-black py-[80px]'>
+    <section id='banner' className='bg-black py-[100px]'>
       <div className="max-w-container mx-auto">
         <div className="banner_main flex justify-between items-center">
           <div className="banner_content">
@@ -100,11 +101,46 @@ function App() {
     {/*================== Banner Part End Here  ==============*/}
 
     {/*================== About Part Start Here  ============*/}
-    <section id='about' className='bg-hover-color py-[80px]'>
+    <section id='about' className=' py-[100px]'>
       <div className="max-w-container mx-auto">
-          <div className="about_main">
-            <div className="about_text"></div>
-            <div className="about_skill"></div>
+        <div className="about_heading text-center pb-[50px]">
+            <h2 className='font-lato capitalize font-bold text-4xl text-heading'>About <span className='text-hover-color'>Me</span> </h2>
+            <div class="progras_bar"></div>
+        </div>
+          <div className="about_main flex gap-[150px] items-center">
+            <div className="about_img bg-heading-bg py-[20px] px-[20px] rounded-[10px] shadow-xl shadow-white">
+              <div className="img_back w-[350px] h-[350px] overflow-hidden">
+                <Image src={AboutImg} alt="not found" class="w-full h-full object-cover"/>
+              </div>
+            </div>
+            <div className="about_skill">
+              <h5 className='text-hover-color font-medium font-lato text-xl pb-[20px]'>Hello There, I am</h5>
+              <h3 className='text-[24px] font-lato font-semibold'>I'm a MERN Stack Developer</h3>
+              <div className='pt-[30px]'>
+                <ul className='flex flex-col gap-[20px]'>
+                  <li className='text-lg font-lato font-medium text-heading '> 1+ year in Web Application Development, Coding, Programming, Testing, Data Management, Project Management</li>
+                  <li className='text-lg font-lato font-medium text-heading '> I will develop custom mern stack web applications as a mern stack developer</li>
+                  <li className='text-lg font-lato font-medium text-heading '> I will be react js developer</li>
+                </ul>
+              </div>
+              <div className='flex gap-[24px] pt-[30px]'>
+                <div className='socile_icon_about'>
+                  <a target='_blanck' href="https://www.linkedin.com/in/modabbir-hossen/" className=' text-white  bg-hover-color w-[40px] h-[40px] text-[24px] flex justify-center items-center rounded-[50%]'><FaLinkedin />
+                  <p className=' text-hover-color font-lato text-base font-medium '>Linkedin</p>
+                  </a>
+                </div>
+                <div className='socile_icon_about'>
+                <a target='_blanck' href="https://twitter.com/modabbirhossen" className=' text-white  bg-hover-color w-[40px] h-[40px] text-[24px] flex justify-center items-center rounded-[50%]'><FaTwitter />
+                <p className=' text-hover-color font-lato text-base  font-medium '>twitter</p>
+                </a>
+                </div>
+                <div className='socile_icon_about'>
+                  <a target='_blanck' href="https://github.com/w3modabbir" className=' text-white  bg-hover-color w-[40px] h-[40px] text-[24px] flex justify-center items-center rounded-[50%]'><FaGithub />
+                  <p className=' text-hover-color font-lato text-base  font-medium '>GitHub</p>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
       </div>
     </section>
