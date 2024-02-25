@@ -29,7 +29,7 @@ import Express from '../src/assets/images/express.png'
 import Photoshop from '../src/assets/images/photoshop.png'
 import Figma from '../src/assets/images/figma.png'
 import uiuxDesign from '../src/assets/images/service1.jpg'
-import Frontend from '../src/assets/images/service2.webp'
+import Frontend from '../src/assets/images/service2.jpg'
 import backEndDeveloper from '../src/assets/images/service3.jpg'
 
 
@@ -308,7 +308,7 @@ function App() {
         <div className="service_main flex ] gap-[24px]">
           <div className="service_item w-[375px] py-[20px] px-[25px] rounded-[10px]">
             <h3 className='text-2xl font-lato font-bold text-hover-color pb-[20px]'>UI UX Design</h3>
-            <div className="service_img overflow-hidden rounded-[10px]">
+            <div className="service_img overflow-hidden rounded-[10px] w-full">
               <Image src={uiuxDesign} alt="not found" class="w-full h-full object-cover "/>
             </div>
             <div className="service_text pt-[20px]">
@@ -320,7 +320,7 @@ function App() {
           </div>
           <div className="service_item w-[375px] py-[20px] px-[25px] rounded-[10px]">
             <h3 className='text-2xl font-lato font-bold text-hover-color pb-[20px]'>Front-End Development</h3>
-            <div className="service_img overflow-hidden rounded-[10px]">
+            <div className="service_img overflow-hidden rounded-[10px] w-full">
               <Image src={Frontend} alt="not found" class="w-full h-full object-cover "/>
             </div>
             <div className="service_text pt-[20px]">
@@ -332,7 +332,7 @@ function App() {
           </div>
           <div className="service_item w-[375px] py-[20px] px-[25px] rounded-[10px]">
             <h3 className='text-2xl font-lato font-bold text-hover-color pb-[20px]'>UI UX Design</h3>
-            <div className="service_img overflow-hidden rounded-[10px]">
+            <div className="service_img overflow-hidden rounded-[10px] w-full">
               <Image src={backEndDeveloper} alt="not found" class="w-full h-full object-cover "/>
             </div>
             <div className="service_text pt-[20px]">

@@ -167,3 +167,14 @@
 .service_item:hover .service_text h6{
     color: #fff;
 }
+.service_item .service_img{
+    width: 325px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.service_item .service_img img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
