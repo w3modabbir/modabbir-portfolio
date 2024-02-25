@@ -51,10 +51,11 @@ function App() {
         <div className="banner_main flex justify-between items-center">
           <div className="banner_content">
             <h5 className='font-lato text-lg  font-medium uppercase text-white pb-[20px]'>WELCOME TO MY WORLD</h5>
-            <h2 className='font-lato text-5xl font-bold  text-white pb-[20px]'>Hi im <span className='text-hover-color'>Modabbir Hossen</span></h2>
+            <h2 className='font-lato text-5xl font-bold  text-white pb-[20px]'>Hi i'm <span className='text-hover-color'>Modabbir Hossen</span></h2>
             <h3 className='font-lato text-3xl font-bold  text-white'>And I'm a <span className='typed'>
             <ReactTyped
                 strings={[
+                  "Full Stack Developer.",
                   "MERN Stack Developer.",
                   "Front-End Developer.",
                   "Web Developer.",
@@ -88,16 +89,26 @@ function App() {
             </div>
           </div>
           <div className="banner_img">
-            <div className="img_backgroud  bg-hover-color w-[300px] h-[300px] rounded-[50%] overflow-hidden relative">
+            <div className="img_backgroud  bg-hover-color w-[300px] h-[300px] rounded-[50%] overflow-hidden relative border-[3px] border-white">
               <Image src={BannerImg} alt="not found" className="w-full h-full object-cover rounded-[50%]"/>
             </div>
+            
           </div>
         </div>
       </div>
     </section>
     {/*================== Banner Part End Here  ==============*/}
-    {/*================== NavBar Part Start Here  ============*/}
-    {/*================== NavBar Part End Here  ==============*/}
+
+    {/*================== About Part Start Here  ============*/}
+    <section id='about' className='bg-hover-color py-[80px]'>
+      <div className="max-w-container mx-auto">
+          <div className="about_main">
+            <div className="about_text"></div>
+            <div className="about_skill"></div>
+          </div>
+      </div>
+    </section>
+    {/*================== About Part End Here  ==============*/}
     {/*================== NavBar Part Start Here  ============*/}
     {/*================== NavBar Part End Here  ==============*/}
     {/*================== NavBar Part Start Here  ============*/}

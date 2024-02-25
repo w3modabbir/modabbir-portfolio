@@ -11,7 +11,8 @@ export default {
       colors: {
         'nav-bg': '#12325d',
         'nav-color': '#fff',
-        'hover-color': '#f9004d'
+        'hover-color': '#f9004d',
+        
       },
       fontFamily: {
         'lato': "'Lato', sans-serif",
